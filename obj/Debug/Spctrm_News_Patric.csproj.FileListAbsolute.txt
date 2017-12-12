@@ -1,0 +1,5 @@
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_News_Patric.csprojResolveAssemblyReference.cache
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Spctrm_news_patric.dll
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Spctrm_news_patric.pdb
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_news_patric.dll
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_news_patric.pdb

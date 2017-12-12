@@ -1,0 +1,102 @@
+﻿Content Table: 
+1.0 - Deserializing 
+	1.1 - Lexicon
+	1.2 - Structure
+	1.3 - XML deserialization
+	1.4 - JSON deserialization
+2.0 - Extending
+	
+3.0 Errors
+
+### 1.0 - Deserializing ###
+	In order to get the objects to match the properties that is the same, 
+	all we have to do is to match the words in the XML or JSON serialization to match the ones in the lexicon, 
+	or Add more if we find more that could have the same property names.
+	My thoughts is that it would take a lot of time to translate the properties by code, and would add more work for the program.
+	Translating and puting them into a list doesnt take long at all. below is more on how.
+
+### END ###
+
+### 1.1 - lexicon ###
+
+* Lexicon, apply these to matched.
+	Items
+	Item
+	Id, 
+	Type, 
+	Title, 
+	Content, 
+	Published, 
+	Updated, 
+	Created, 
+	Language, 
+	Source_id, 
+	Source_name, 
+	Organization_nummer,
+	Images - list ( Image_large, Image_Small, Image_Medium, Thumbnail_small, Thumbnail_medium, Thumbnail_large)
+	Files - list()
+
+### END ###
+
+### 1.2 - Structure ###
+Items [
+	Item or [0] : {
+		Id,
+		Type,
+		Title,
+		Content,
+		Published,
+		Updated,
+		Created,
+		Language,
+		Source_id,
+		Source_name,
+		Organization_nummer,
+		Images : [
+			[0] : {
+				Image_large,
+				Image_Small,
+				Image_Medium,
+				Thumbnail_small,
+				Thumbnail_medium,
+				Thumbnail_large
+			}
+		]
+		Files: [
+			[0]: {
+			}
+		]
+	}
+]
+### END ###
+
+### 1.3 XML Serialization ###
+This one was applied on Cision, it simply works and most properties have been renamed to fit a better name, prefered uppercased first letter.
+
+This is mainly Daniels creation, but is was a great platform to find out how what approach i would take. 
+Tryed to combine this and json serialization without success, Realized later that if you would use the json key to cision, you most likely wouldnt use the Lib, 
+so there was no point in making a serialization for that key.
+However the lib can serialize to JSON to work with JS ajax, check "json_encode()" for more.
+
+Doubt this serialization needs to have both Releases and ReleaseDetail, but it works well.
+Whats changed is the properties to match the lexicon.
+
+### END ###
+
+### 1.4 JSON Serialization ###
+Project is following the structure of Cision, with changed words to simplify between cision and mynewsdesk.
+It's important that it fits the structure of the json file added, the documentation on this lib is horrific but it works well.
+
+we let http://json2csharp.com/ do the heavy job of creating the classes, get a json formatted from the source using postman or webbrowser, modify it by translating,
+paste it into the website or edit there, generate and save it as a file similar to Mynewsdesk.cs, 
+you may have to create lists or whatever you need, like i did to files and images in mynewsdesk to follow the structure.
+
+the lib uses a method they build called "SelectToken" to determine where in the file/json you want to start the serialization and it wont return the things before it. 
+When calling on GetJSON() you can set the start point there, remember to match it with the object in translate <T> or the serialization will not understand.
+The most problematic is to match the json and the object, but following the 3 steppes and it should be good.
+step 1: http://json2csharp.com/, build the model.
+step 2: Put the starting token in GetJSON( URL to the json , Starting token).
+step 3: add the object to Translate<T> that matches the json. check mynewsdesk to see working example.
+
+### END ###
+

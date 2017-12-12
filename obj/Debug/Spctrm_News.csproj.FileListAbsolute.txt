@@ -1,0 +1,14 @@
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Spctrm_news.dll
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Spctrm_news.pdb
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_News.csprojResolveAssemblyReference.cache
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_news.dll
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_news.pdb
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Patric\Source\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Spctrm_news.dll
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Spctrm_news.pdb
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_News.csprojResolveAssemblyReference.cache
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_news.dll
+C:\Users\Patric-k\Desktop\Repos\SpctrmModules\ClassLibrary1\obj\Debug\Spctrm_news.pdb

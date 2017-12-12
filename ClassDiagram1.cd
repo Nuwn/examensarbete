@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Spctrm_news.Cision.Detail">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cision\Detail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.List">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="Spctrm_news.News" FixedToPoint="true">
+      <Path>
+        <Point X="1.5" Y="3.978" />
+        <Point X="1.5" Y="4.875" />
+        <Point X="3.5" Y="4.875" />
+        <Point X="3.5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cision\List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.Settings">
+    <Position X="5.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAQACgAAAAAgAAAEAAAAABAAAAAABA=</HashCode>
+      <FileName>Cision\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Category" Collapsed="true">
+    <Position X="20" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.EmbeddedItem" Collapsed="true">
+    <Position X="20" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgQEAAAAAAAAAAAAAAAQAAIAAAAAIQgAA=</HashCode>
+      <FileName>Cision\XmlSerialization\EmbeddedItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.ExternalLink" Collapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\ExternalLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.File" Collapsed="true">
+    <Position X="20" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAAAAAAQAACAAAAABAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\File.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Image" Collapsed="true">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgAEAAAAAAAABgAAAAAQAAAAAAAABAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Keyword" Collapsed="true">
+    <Position X="18.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\Keyword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.LanguageVersion" Collapsed="true">
+    <Position X="18.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\LanguageVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.QuickFact" Collapsed="true">
+    <Position X="18.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\QuickFact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Quote" Collapsed="true">
+    <Position X="20" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\Quote.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Release">
+    <Position X="9.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ESCCAAAACogEAFCADBAACQgEgAAAEBAAQQAAgAgAAIk=</HashCode>
+      <FileName>Cision\XmlSerialization\Release.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.ReleaseDetail" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BGCDAAAAAAEEAlKgCAABAQgsgAAGEBAAUAIAgkgEAIg=</HashCode>
+      <FileName>Cision\XmlSerialization\ReleaseDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Items">
+    <Position X="13" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAEAAEAAAAQAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\Releases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Cision.XmlSerialization.Video" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAgQEAAAAAAAEAAAAAAAQAAAAAAAAAQAAA=</HashCode>
+      <FileName>Cision\XmlSerialization\Video.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.Detail">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\Detail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.List">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.Settings">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AECAAAABAAAAAAAAAQgECAAAAAEAAAAAQAgAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Link" Collapsed="true">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Links" Collapsed="true">
+    <Position X="20" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Tags" Collapsed="true">
+    <Position X="20" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Subjects" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.GeographicAreas" Collapsed="true">
+    <Position X="18.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.ContactPerson" Collapsed="true">
+    <Position X="18.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCiAAAAAKABAEAgBQIBKAYAAQAAAJAgCAAAIAEAwAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.ContactPeople" Collapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.RelatedItem" Collapsed="true">
+    <Position X="18.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.RelatedItems" Collapsed="true">
+    <Position X="18.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Item">
+    <Position X="15" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BQCCAEACCoABAECACCABCAEAEAAAAhQAaQJgAAFEAIA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.File" Collapsed="true">
+    <Position X="20" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Images" Collapsed="true">
+    <Position X="20" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAABAEAAAAAAAABgAAAAAAAAAAAAAAAMAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.Items">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.Mynewsdesk.JsonSerialization.RootObject" Collapsed="true">
+    <Position X="20" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mynewsdesk\JsonSerialization\Mynewsdesk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Spctrm_news.News">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAgAAAAAEAAAAAACIAAIAAAAAAAAAAkCCAEAAA=</HashCode>
+      <FileName>News.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="21.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
